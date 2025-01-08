@@ -1,0 +1,25 @@
+To Delete specific branch
+git branch -r
+
+git push <remote-name> --delete <branch-name>
+
+ex
+git push origin --delete Nikhil-dev
+
+
+after delete
+
+git branch -r
+
+To delete the Local branch
+
+git branch
+
+git branch -d <branch-name>
+
+
+to force delete the Branch
+
+used the 
+
+git branch -D <branch-name>

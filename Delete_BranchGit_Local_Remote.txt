@@ -23,3 +23,10 @@ to force delete the Branch
 used the 
 
 git branch -D <branch-name>
+
+
+
+git log -oneline
+
+
+git diff master dev_nikhil

@@ -1,0 +1,75 @@
+1.git config --global user.name "nikhil7761"
+.....entre your username
+
+2.git config --global user.email "nikhilvargude1405@gmail.com"
+.....entre your email
+
+3.git clone [http]
+....copy http from git-hub
+
+4.git init 
+....to become a part of git woking diretory
+ 
+5. git add ./ git add abc.txt / git add --a
+... file add to staging directory(area)
+
+6.git commit -m "today date 25-01-2023"
+..commit -m "Final"
+
+6.git diff__________
+
+.....it is comparing the staging area and working directory and showing the difference between them.
+
+7.git log
+....it showing you author email-id and what chages are done at last
+
+8.rm -rf .git 
+... for deleting the file overall form git 
+
+9.git log -p
+..it showing u what chages are done what is deleted from file
+ 
+10.git log --stact
+..how many lines are inserted. 
+how many lines are removed.
+
+11.git log --pretty=one line
+it showing all comment in one line
+
+12.author is whose is responsible for creating git folder(file) 
+
+13.git log --since=2.month
+   git log --since=2.years
+...only showing chages
+
+14.git remote
+...we have to upload on remote (server)
+
+15.shift + insert copy paste
+
+16.git remote add origin https://github.com/nikhil7761/Git-Hub.git~
+   ...to become remote origin
+
+17.git remote -v
+add to server for pull(fetch) and push
+
+
+18.git push -u origin main
+error src refspec main does not match
+
+19.convert metadata into source code
+git clone file:///C:/git/Devops_Tools/Gitea_Repositories_Backup/Gitea_Repository_Backup17-07-2024/.Gitea-Repositories_17-07-2024/ifinixfintech_aws/aws_lambdafunction.git
+
+
+20.after command hit
+git add .
+how to go back 
+git reset
+
+21.after commit how to go back
+git reset --hard HEAD~1
+
+
+22.git add <filename>
+
+23 git add *

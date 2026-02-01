@@ -73,3 +73,7 @@ git reset --hard HEAD~1
 22.git add <filename>
 
 23 git add *
+
+24 git diff__________
+
+25 untracked unstage stage remote

@@ -1,0 +1,26 @@
+untracked unstage stage remote
+git config --global user.name
+git config --global user.mail
+git init
+git add .
+git add abc.txt
+git commit -m "added abc.txt file"
+git push origin main
+git remote add origin url
+git remote -v
+git branch
+git checkout -b dev
+git branch fetaure1
+git status
+git diff
+git log
+git log --since=1.month
+git diff
+git stash 
+git stash apply
+git stash list
+git merge dev
+git git pull origin master
+git fetch origin dev
+git clone url
+

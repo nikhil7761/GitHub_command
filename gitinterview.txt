@@ -1,6 +1,11 @@
-untracked unstage stage remote
-git config --global user.name
-git config --global user.mail
+Untracked: new files Git doesn’t know
+tracked: file already but changes on it
+Staged: files added using git add
+Committed: snapshot saved in local repo
+Remote: pushed to GitHub/GitLab
+
+git config --global user.name "Nikhil"
+git config --global user.email "nikhilvargude@gmail.com"
 git init
 git add .
 git add abc.txt
@@ -10,7 +15,7 @@ git remote add origin url
 git remote -v
 git branch
 git checkout -b dev
-git branch fetaure1
+git branch feature1
 git status
 git diff
 git log
@@ -20,7 +25,11 @@ git stash
 git stash apply
 git stash list
 git merge dev
-git git pull origin master
+git pull origin master
 git fetch origin dev
 git clone url
-
+git rebase main
+git cherry-pick <commit-id>
+git tag v1.0
+git push origin v1.0
+git revert <commit-id>

@@ -33,3 +33,4 @@ git reset --hard head~1
 git pull --rebase
 git reflog
 git config --list
+untraked unstage stage Remote

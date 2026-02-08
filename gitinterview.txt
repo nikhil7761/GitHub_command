@@ -1,4 +1,5 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Untracked: new files Git doesn’t know
 tracked: file already but changes on it
 Staged: files added using git add
@@ -35,6 +36,8 @@ git tag v1.0
 git push origin v1.0
 git revert <commit-id>
 =======
+=======
+>>>>>>> Stashed changes
 untracked unstage stage remote
 git config --global user.name
 git config --global user.email
@@ -57,4 +60,7 @@ git checkout -b dev
 git diff
 
 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes

@@ -16,7 +16,7 @@ git log
 git log since=1.month
 git revert <commitid>
 git cherry-pick <commitid>
-git rebase dev
+git rebase dev. to become clear commit 
 git merge master
 git remote -v
 git remote remove origin

@@ -1,5 +1,5 @@
 1.git config --global user.name "nikhil7761"
-.....entre your username
+.....entre your username 
 
 2.git config --global user.email "nikhilvargude1405@gmail.com"
 .....entre your email
@@ -7,7 +7,7 @@
 3.git clone [http]
 ....copy http from git-hub
 
-4.git init 
+4.git init  for the initailzation
 ....to become a part of git woking diretory
  
 5. git add ./ git add abc.txt / git add --a
